@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div>
-        <p>home page</p>
+        <p>this is the  home page</p>
       </div>
     </>
   )
