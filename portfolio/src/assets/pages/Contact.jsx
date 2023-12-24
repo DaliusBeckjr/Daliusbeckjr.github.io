@@ -1,8 +1,10 @@
 const Contact = () => {
     return (
-        <div className="">
-            <h1>This is the Contact page</h1>
-        </div>
+        <section className="section is-medium">
+            <div className="">
+                <h1 className="title">Contact Section</h1>
+            </div>
+        </section>
     );
 }
 
