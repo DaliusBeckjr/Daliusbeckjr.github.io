@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
-import '@ionic/react/css/core.css';
+// state management
+// eslint-disable import/no-unresolved
 
 import 'bulma/css/bulma.min.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+      <App />
   </React.StrictMode>,
 )

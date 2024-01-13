@@ -1,5 +1,5 @@
-import LinkdInLogo from "../images/linkedin.svg"
-import GithubLogo from "../images/github.svg"
+import LinkdInLogo from "../assets/images/linkedin.svg"
+import GithubLogo from "../assets/images/github.svg"
 import { Link } from "react-router-dom";
 
 

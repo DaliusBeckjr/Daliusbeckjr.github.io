@@ -1,4 +1,5 @@
-import pdfFile from '../images/Daliusb_jr_resume.pdf';
+// import pdfFile from '../images/Daliusb_jr_resume.pdf';
+import pdfFile from '../assets/images/Daliusb_jr_resume.pdf'
 
 const Home = () => {
     const openResume = () => {

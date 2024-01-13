@@ -1,7 +1,7 @@
-import { NavLink, Outlet } from "react-router-dom"
 import { useState } from "react"
+import {  NavLink } from 'react-router-dom'
 
-export default function RootLayout() {
+const Navbar = () => {
     const [isActive, setIsActive] = useState(false)
 
     const toggleActive = () => {
@@ -13,9 +13,10 @@ export default function RootLayout() {
     }
 
     return (
-    <>
-        <header>
-            <nav className="navbar is-fixed-top">
+        <>
+        {/* move the nav from RootLayout and make it a component */}
+
+        <nav className="navbar is-fixed-top">
                 <div className="navbar-brand">
                 <NavLink to="/" className="navbar-item pl-6" onClick={ closeNavMenu }>
                     <h1 className="title has-text-weight-bold">
@@ -32,7 +33,7 @@ export default function RootLayout() {
 
                 <div className={`navbar-menu pr-6 ${ isActive ? 'is-active' : null }`}>
                     <div className="navbar-end">
-                    <NavLink to="home" className="navbar-item" onClick={ closeNavMenu }>Home</NavLink>
+                        <NavLink to="home" className="navbar-item" onClick={ closeNavMenu }>Home</NavLink>
                         <NavLink to="about" className="navbar-item" onClick={ closeNavMenu }>About</NavLink>
                         <NavLink to="projects" className="navbar-item" onClick={ closeNavMenu }>Projects</NavLink>
                         <NavLink to="contact" className="navbar-item" onClick={ closeNavMenu }>Contact Me</NavLink>
@@ -40,11 +41,8 @@ export default function RootLayout() {
                 </div>
 
             </nav>
-        </header>
-
-        <main>
-            <Outlet />
-        </main>
-    </>
-    )
+        </>
+    );
 }
+
+export default Navbar;
