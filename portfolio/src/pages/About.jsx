@@ -1,7 +1,7 @@
 const About = () => {
     return (
         <section className="section is-medium">
-            <h3 className="title has-text-info">
+            <h3 className="title has-text-danger">
                 About Me 
             </h3>
             <p className="is-size-5 mb-6">I am a creative Developer based in Arizona and I am passionate about creating stunning projects. I design and create static websites as well as creating API&apos;s for reactive web apps with the help of React and Python. I have always been fascinated with the backend part of the website, figuring out how it functions and trying to make my own websites fuctional using Python. Being a Virtual Creator and having a inconsiderable amount of ambition and optimism for creating amazing things is what drives me the most. 

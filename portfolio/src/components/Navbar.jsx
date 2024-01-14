@@ -20,7 +20,7 @@ const Navbar = () => {
                 <div className="navbar-brand">
                 <NavLink to="/" className="navbar-item pl-6" onClick={ closeNavMenu }>
                     <h1 className="title has-text-weight-bold">
-                    <span className="has-text-info">D</span>alius.
+                    <span className="has-text-danger">D</span>alius.
                     </h1>
                 </NavLink>
 
@@ -33,10 +33,10 @@ const Navbar = () => {
 
                 <div className={`navbar-menu pr-6 ${ isActive ? 'is-active' : null }`}>
                     <div className="navbar-end">
-                        <NavLink to="home" className="navbar-item" onClick={ closeNavMenu }>Home</NavLink>
-                        <NavLink to="about" className="navbar-item" onClick={ closeNavMenu }>About</NavLink>
-                        <NavLink to="projects" className="navbar-item" onClick={ closeNavMenu }>Projects</NavLink>
-                        <NavLink to="contact" className="navbar-item" onClick={ closeNavMenu }>Contact Me</NavLink>
+                        <NavLink to="home" className="navbar-item has-text-danger" onClick={ closeNavMenu }>Home</NavLink>
+                        <NavLink to="about" className="navbar-item has-text-danger" onClick={ closeNavMenu }>About</NavLink>
+                        <NavLink to="projects" className="navbar-item has-text-danger" onClick={ closeNavMenu }>Projects</NavLink>
+                        <NavLink to="contact" className="navbar-item has-text-danger" onClick={ closeNavMenu }>Contact Me</NavLink>
                     </div>
                 </div>
 

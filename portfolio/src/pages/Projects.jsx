@@ -6,7 +6,7 @@ const Projects = () => {
     return (
 
         <section className="section is-medium">
-                <h1 className="title has-text-info">Projects</h1>
+                <h1 className="title has-text-danger">Projects</h1>
                 {/* <div className="container"> */}
                 
                     <div className="columns is-centered">
