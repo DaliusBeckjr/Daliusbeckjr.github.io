@@ -20,7 +20,7 @@ const Navbar = () => {
                 <div className="navbar-brand">
                 <NavLink to="/" className="navbar-item pl-6" onClick={ closeNavMenu }>
                     <h1 className="title has-text-weight-bold">
-                    <span className="has-text-danger">D</span>alius.
+                    <span className="has-text-danger">D</span>alius.Dev
                     </h1>
                 </NavLink>
 

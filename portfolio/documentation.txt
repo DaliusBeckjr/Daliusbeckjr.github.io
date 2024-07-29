@@ -1,0 +1,18 @@
+update 3.4.5
+
+we are going to update the router
+update the structure of the portfolio
+...introduction, projects, about me then connect
+update the social media part of the connect add them there at the bottom with
+logos 
+then we are going to add a logo or even a avatar face from open peeps in 
+the intro to give a better introduction of us
+
+after that we need to add a project or two. video of us working in it and even add a link to where the code and need a hosting site. so will need to spend a bit more to land a career
+
+stack: django tailwind react sql (full stack developer)
+
+make 2 projects using c# to get into other fields and show that we can do 2 different languages in the backend since that is more popular in the backend than django
+
+find really good mockups
+

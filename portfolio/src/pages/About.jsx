@@ -8,7 +8,7 @@ const About = () => {
             
             
             {/* My expertise lies in building the backend for websites using Python as my primary programming language of choice. I enjoy making webistes and learning new challenging things that consist in figuring out problems to optimize a website to let if function better */} </p>
-            <div className="container">
+            {/* <div className="container">
                 <div className="columns is-centered mx-5">
                     <div className="column is-half card m-2">
                         <div className="content">
@@ -31,11 +31,17 @@ const About = () => {
                                 <p>Bulma</p>
                                 <p>CSS</p>
                                 <p>HTML</p>
-                            </div>
+                                
+                                <p>
+                                <a href="https://skillicons.dev">
+                                    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim" />
+                                </a>
+                                </p> 
+    </div> 
                         </div>
                     </div>
                 </div>
-            </div>
+    </div> */}
             
             
         </section>
