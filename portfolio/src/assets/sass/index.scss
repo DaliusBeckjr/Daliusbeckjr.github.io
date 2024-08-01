@@ -1,28 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-// Define custom colors
+
+// Define custom colors and propreties
 $purple: hsl(284, 95%, 56%);
+$primary-color: hsl(204, 86%, 53%);
+$primary-color-dark: hsl(204, 100%, 40%);
+$primary-color-light: hsl(204, 86%, 70%);
+$primary-color-lighter: hsl(204, 86%, 90%);
 
-@use "bulma/sass/utilities" with (
-    $primary: $purple
-);
+
+@import "bulma/sass/utilities/_all";
+@import "bulma/sass/base/_all";
+@import "bulma/sass/elements/_all";
+@import "bulma/sass/components/_all";
+
+// custom text color
+.has-text-logia{
+    color: $purple;
+}
 
 
+body {
+    font-family: "Nunito", sans-serif;
+}
 
-// Import the components you need
-@forward "bulma/sass/base";
-@forward "bulma/sass/components/card";
-@forward "bulma/sass/components/modal";
-@forward "bulma/sass/components/navbar";
-@forward "bulma/sass/elements/button";
-@forward "bulma/sass/elements/icon";
-@forward "bulma/sass/elements/content";
-@forward "bulma/sass/elements/notification";
-@forward "bulma/sass/elements/progress";
-@forward "bulma/sass/elements/tag";
-@forward "bulma/sass/layout/footer";
+// Custom button styles
 
-// Import the themes so that all CSS variables have a value
-@forward "bulma/sass/themes";
+.button{
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    &.is-primary {
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
+    }
+    &:active {
+        transform: scale(0.95);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    }
+}
