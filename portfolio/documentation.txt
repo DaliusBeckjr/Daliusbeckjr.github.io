@@ -16,3 +16,5 @@ make 2 projects using c# to get into other fields and show that we can do 2 diff
 
 find really good mockups
 
+
+need to update the footer with the contact information and add some cookies to the site AAaand even add it to where we can leave some more details about us like a little before you go connect with me
