@@ -9,7 +9,7 @@
     "predeploy": "vite build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
-    "build-bulma" : "sass --load-path=node_modules ./src/assets/sass/index.scss ./src/assets/css/index.css",
+    "build-bulma": "sass --load-path=node_modules ./src/assets/sass/index.scss ./src/assets/css/index.css",
     "watch-bulma": "npm run build-bulma -- --watch",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
