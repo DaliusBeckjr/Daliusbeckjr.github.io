@@ -18,3 +18,15 @@ find really good mockups
 
 
 need to update the footer with the contact information and add some cookies to the site AAaand even add it to where we can leave some more details about us like a little before you go connect with me
+
+
+
+scroll to top feature:
+
+window.scrollTO({ top: 0, behavior: 'smooth'})
+
+
+
+1/4 cup parmesan cheese
+salt
+butter

@@ -15,7 +15,7 @@ const Projects = () => {
                             <div className="card is-rounded-xl">
                                 <div className="card-image">
                                     <figure className="image is-4by3">
-                                        <img src="https://bulma.io/images/placeholders/256x256.png" />
+                                        <img src="./src/images/paws_and_rescue_screenshot.png" />
                                     </figure>
                                     <div className="card-content">
                                         <div className="content ">
@@ -23,14 +23,14 @@ const Projects = () => {
                                             <p className="">a web application designed to help users manage rescue animals. It provides a platform to create, view, and manage rescue animal profiles.</p>
                                             <p>
                                                 <a href="https://skillicons.dev">
-                                                    <img src="https://skillicons.dev/icons?i=flask,mysql,docker,html,sass" alt="icons showing flask, mysql, docker, html and sass" />
+                                                    <img src="https://skillicons.dev/icons?i=flask,mysql,html,sass" alt="icons showing flask, mysql, docker, html and sass" />
                                                 </a>
                                             </p>
                                         </div>
                                     </div>
                                     <footer className="card-footer">
                                         <nav>
-                                            <Link className="card-footer-item" to="https://www.github.com"> Github </Link>
+                                            <Link className="card-footer-item" to="https://github.com/DaliusBeckjr/paws_rescue"> Github </Link>
                                         </nav>
                                     </footer>
                                 </div>
