@@ -6,9 +6,26 @@ flask react app
 
 {% block body %}
 
-<h1 class="text-3xl font-semibold">
-    Hello world!
-</h1>
-<button class="btn">Button</button>
+<section>
+    <div class="px-6 py-6">
+        <h1 class="text-2xl font-semibold">
+            Hello there, I'm
+        </h1>
+        <h1 class="text-4xl font-bold">Dalius Beck</h1>
+        <p class="font-semibold">Software Developer | Freelancer</p>
+        <button class="btn">Resume/CV</button>
+        <button class="btn">Contact Me</button>
 
+    </div>
+</section>
+
+
+
+<script>
+    // scroll to the top of the page.. going to need a widget or button
+    window.scrollTo({ top: 0,behavior: 'smooth' });
+    window.scrollTo({ bottom: 0, behavior: 'smooth' });
+
+    const isDarkMode = () => window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+</script>
 {% endblock %}

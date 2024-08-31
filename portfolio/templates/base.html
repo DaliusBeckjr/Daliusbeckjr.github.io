@@ -6,9 +6,14 @@
     <title>{% block title %}{% endblock %}</title>
     <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
 </head>
-<body>
-    {% block body %}
-    {% endblock %}
+<body class="box-border flex">
+    <header class="fixed top-0 w-full shadow-md z-10">
+        {% include "components/navbar.html" %}
+    </header>
+    <main class="m-16"> <!-- Margin added to compensate for the fixed navbar height -->
+        {% block body %}
+        {% endblock %}
+    </main>
 </body>
 </body>
 </html>
