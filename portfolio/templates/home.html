@@ -6,15 +6,15 @@ flask portfolio
 
 {% block body %}
 
-    <section class="h-screen py-16">
+    <section id="home" class="hero min-h-screen  lg:pt-[150px] sm:py-20">
         <div class="flex">
             <div class="py-6 px-6">
                 <h1 class="text-6xl font-extrabold">Hi, I'm Dalius Beck</h1>
-                <p class="text-2xl font-semibold mb-4">Software Developer | Freelancer</p>
+                <p class="text-3xl font-semibold mb-4 mt-2 text-blue-500">Software Developer | Freelancer</p>
                 <p class="mb-6 text-xl">Continuing to make great ideas into reality with each line of code.</p>
                 <nav class="small-nav">
-                    <a href="{{ url_for('static', filename='resume.pdf') }}" class="btn btn-active btn-primary" target="_blank" >Resume/CV</a>
-                    <button class="btn btn-outline btn-primary">Contact Me</button>
+                    <a href="{{ url_for('static', filename='resume.pdf') }}" class="btn btn-active bg-blue-500 hover:bg-blue-700 hover:text-slate-100 dark:bg-blue-500 dark:text-white" target="_blank" >Resume/CV</a>
+                    <button class="btn outline outline-2 outline-blue-500 text-blue-500 hover:bg-blue-600 hover:text-slate-50 hover:outline-0">Contact Me</button>
                 </nav>
         
             </div>
@@ -24,8 +24,40 @@ flask portfolio
         </div>
     </section>
     
-    <section class="h-screen py-16">
-        <p class="content-center">this is the about secion</p>
+    <section id="about" class="h-auto my-[145px] sm:py-20">
+        <h1 class="text-2xl font-extrabold text-blue-500"> About Me </h1>
+        <div class="">
+            <div class="my-4">
+                <p class="mb-3 text-base">Hey, I'm a self-taught software developer who found <span class="text-blue-500">inspiration</span> in the tech world. I became fascinated with creating innovative web <span class="text-blue-500">solutions</span> and enjoy <span class="text-blue-500">exploring</span> how things work and tackling fun <span class="text-blue-500">challenges</span> along the way.</p>
+                <p class="text-base"> When I’m not coding or programming, you’ll find me hiking, snowboarding, or traveling to new and exciting places. I also have a passion for practicing and understanding multiple languages.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="h-auto my-[110px]">
+        <h3 class="text-2xl font-extrabold text-blue-500 my-12">Projects</h3>
+        <div class="lg:grid lg:grid-cols-2 lg:gap-6 sm:flex">
+            <div class="px-8 py-8 rounded-md shadow-xl">
+                <figure class="mb-3 rounded-md">
+                    <img  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                    alt="Shoes" />
+                </figure>
+                <div class="card-nav flex">
+                    <p>Project title - 2 weeks</p>
+                    <div class="ml-20">
+                        <span class="material-symbols-outlined mx-6">
+                            language
+                        </span>
+                        <span class="material-symbols-outlined">
+                            language
+                        </span>
+                    </div></div>
+                <div class="divider"></div>
+                <p>lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptatem repellendus ducimus eligendi ipsum fugiat ipsa quia minus deserunt similique magnam, sunt dolore nulla tenetur suscipit, quis inventore tempora non.
+                </p>
+            </div>
+
+        </div>
     </section>
 
 

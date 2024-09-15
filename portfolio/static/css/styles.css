@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Nunito", "sans-serif";
 }
@@ -12,6 +16,10 @@ body {
 
 .dark {
     @apply bg-slate-950;
+}
+
+.nav-bn {
+    @apply text-base font-semibold  hover:underline hover:underline-offset-8 hover:decoration-2 hover:decoration-blue-400 hover:bg-base-100;
 }
 
 .small-nav {
